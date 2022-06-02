@@ -23,7 +23,7 @@
                         <div class="d-flex flex-row justify-content-center">
                             <a href="{{project.codeSourceUrl}}" target="_blank" target="_blank"
                                 type="button" class="btn btn-primary mr-3">{{'projects.sourceCode' | translate}}</a>
-                            <button (click)="detailOnClick(project)" type="button" class="btn btn-primary"><span *ngIf="!project.detailIsDisplayed">+</span><span *ngIf="project.detailIsDisplayed">-</span>
+                            <button (click)="detailOnClick(project)" type="button" class="btn btn-primary"><span *ngIf="!project.detailIsDisplayed"></span><span *ngIf="project.detailIsDisplayed">-</span>
                                 {{'projects.projectDetail' | translate}}</button>
                         </div>
                         <div *ngIf="project.detailIsDisplayed" [innerHTML]="project.detail" class="mt-3">

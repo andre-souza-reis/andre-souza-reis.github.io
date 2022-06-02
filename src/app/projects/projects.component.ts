@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslationLoaderService } from '../service/translation-loader.service';
 import { locale as english } from '../shared/i18n/en';
-import { locale as french } from '../shared/i18n/fr';
+import { locale as portuguese } from '../shared/i18n/pt';
 import { projectsEn} from '../api/projectsEn';
-import { projectsFr} from '../api/projectsFr';
+import { projectsPt} from '../api/projectsPt';
 
 import { TranslateService } from '@ngx-translate/core';
 @Component({
@@ -15,13 +15,13 @@ export class ProjectsComponent implements OnInit {
   projects:any[]=projectsEn;
   venobox: any;
   constructor(private _translationLoaderService: TranslationLoaderService,private _translateService: TranslateService) {
-    this._translationLoaderService.loadTranslations(english, french);
+    this._translationLoaderService.loadTranslations(english, portuguese);
     this._translateService.onLangChange.subscribe(()=>{
       if(this._translateService.currentLang=="en"){
         this.projects=projectsEn;
       }
       else{
-        this.projects=projectsFr;
+        this.projects=projectsPt;
       }
     });
   }
@@ -32,11 +32,8 @@ export class ProjectsComponent implements OnInit {
 
   ngAfterViewInit(){
     console.log("after view init");
-    this.onMouse("portfolio-link", "portfolio-img");
-    this.onMouse("teamTraveler-link", "teamTraveler-img");
     this.onMouse("mautic-link", "mautic-img");
-    this.onMouse("pokedex-link", "pokedex-img");
-    this.onMouse("riddle-link", "riddle-img");
+    this.onMouse("TransferStyle-link", "TransferStyle-img");
     this.venobox = $('.venobox');
     this.venobox.venobox();
   }

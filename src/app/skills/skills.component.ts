@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslationLoaderService } from '../service/translation-loader.service';
 import { locale as english } from '../shared/i18n/en';
-import { locale as french } from '../shared/i18n/fr';
+import { locale as portuguese } from '../shared/i18n/pt';
 
 @Component({
   selector: 'app-skills',
@@ -10,13 +10,13 @@ import { locale as french } from '../shared/i18n/fr';
 })
 export class SkillsComponent implements OnInit {
   skills:any={
-    technologies:[{name:"Java, J2EE, Spring, C#",percent:90,remark:'excellent'}, {name:"PHP",percent:70,remark:'good'},{name:"Android",percent:90,remark:'excellent'},{name:"Python, C++",percent:70,remark:'very-good'}, {name:"JavaScript, BootStrap, Angular", percent:90,remark:'excellent'}],
-    tools:[{name:"Git",percent:90,remark:'excellent'},{name:"Office",percent:90,remark:'excellent'},{name:"Linux, Windows",percent:70,remark:'very-good'},{name:"MySql, PgSql",percent:90,remark:'excellent'},{name:"Docker, Kubernetes",percent:50,remark:'average'}],
-    methodologies:[{name:"Scrum",percent:70,remark:'very-good'},{name:"Uml",percent:90,remark:'excellent'},{name:"Disign Thinking",percent:70,remark:'good'},{name:"TDD",percent:90,remark:'excellent'},{name:"DevOps",percent:50,remark:'average'}]
+    languages:[{name:"Python",percent:80,remark:'very-good'}, {name:"SQL",percent:80,remark:'very-good'}, {name:"HTML, JavaScript, CSS",percent:70,remark:'good'}, {name:"C, C#",percent:50,remark:'average'}],
+    libraries:[{name:"TensorFlow, Keras",percent:90,remark:'excellent'}, {name:"Numpy, Pandas, Matplotlib",percent:90,remark:'excellent'}, {name:"Scikit-Learn",percent:80,remark:'very-good'},{name:"Angular, BootStrap",percent:70,remark:'good'}],
+    tools:[{name:"AWS",percent:80,remark:'very-good'}, {name:"Git",percent:80,remark:'very-good'}, {name:"Docker",percent:70,remark:'good'},{name:"Linux",percent:50,remark:'average'}]
   };
 
   constructor(private _translationLoaderService: TranslationLoaderService) {
-    this._translationLoaderService.loadTranslations(english, french);
+    this._translationLoaderService.loadTranslations(english, portuguese);
   }
 
   ngOnInit(): void {

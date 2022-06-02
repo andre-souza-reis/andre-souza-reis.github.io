@@ -1,0 +1,83 @@
+export const locale = {
+    lang: 'pt',
+    data: {
+        'about': {
+            'title': 'Sobre',
+            'jobTitle': "Cientista de Dados",
+            'introductionOfMe': "Interesse em novas tecnologias e métodos de trabalho. Gosto de apresentar ideias que permitam melhorar os processos de negócios.",
+            'passionateAboutDevelopment':' Apaixonado por',
+            'textend':'',
+            'mobility': 'Disponível em São Paulo',
+            'years': 'anos',
+            'graduation': "Graduado em Engenharia Mecatrônica",
+            'researchDescription': "Procuro por uma emprese inovadora.",
+            'and':'e por',
+            'followMeOn':'Suivez-moi sur',
+        },
+        'contact': {
+            'contactMe': 'Entre em contato',
+            'notHesitateToContactMe': "Não hesite em me contatar",
+            'identify': 'Nome',
+            'enterIdentify': 'Entre com seu nome',
+            'email': 'Email',
+            'enterEmail': 'Entre com seu email',
+            'object': 'Assunto',
+            'enterObject': "Entre com o assunto",
+            'message': 'Messagem',
+            'send': 'Enviar',
+        },
+        'education': {
+            'title': 'Curriculum Vitae',
+            'eductionTitle': 'Educação',
+            'experiencesTitle': 'Experiências',
+            'centerOfInterest': "Interesses",
+            'sport': 'Esportes',
+            'trips': 'Viagens',
+            'languages': 'Línguas',
+            'fluent': 'Nativo',
+            'goodLevel': 'Avançado',
+            'french': 'Português',
+            'english': 'Inglês',
+            'masterDegreeTwo': "Graduação",
+            'masterDegreeTwoDesc': "Engenharia Mecatrônica",
+            'masterDegreeOne': "Intercâmbio",
+            'masterDegreeOneDesc': "Ciência de dados",
+            'bachlorDegree': "Ensino Médio e Técnico",
+            'bachlorDegreeDesc': "Mecânica",
+            'university0': 'Instituto Federal de São Paulo',
+            'university1': 'IST, Universidade de Lisboa',
+            'university2': 'Escola Politécnica, USP',
+            'mission':'Mission',
+            'technologies':'Tecnologias',
+            'detail':'Detalhes',
+            'tripsCountries':'Portugal, Espanha',
+            'boardGamesPlayed':'Jeu de dames et de dominos, Among US, Ludo, ..etc',
+            'years':'anos'
+        },
+        'header': {
+            'home': 'Home',
+            'about': 'Sobre',
+            'skills': 'Competências',
+            'references': 'Recomendações',
+            'contactMe': 'Contato',
+            
+        },
+        'home': {
+            'iAmDeveloper': 'Je suis développeur',
+        },
+        'projects': {
+            'title': 'Projetos',
+            'projectDetail':'Detalhes do projeto',
+            'sourceCode':'Código',
+        },
+        'references': {
+            'title': 'Recomendações',
+        },
+        'skills': {
+            'title': 'Competências',
+            'languages':'Linguagens',
+            'libraries':'Bibliotecas e frameworks',
+            'tools':'Ferramentas'
+        },
+    }
+}

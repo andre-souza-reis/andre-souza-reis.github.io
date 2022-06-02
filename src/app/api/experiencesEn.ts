@@ -1,51 +1,34 @@
 export const experiencesEn = [
     {
-        title: "Freelance developer",
-        company: 'Scotfy, Lyon, Fr',
-        period: "2020 - 2021 (2 months)",
-        technologies: 'C#, .NET, Angular 11, Angular Materials, pgSql, Qlik Sense',
+        title: "Innovation Ecosystem Dev Analyst",
+        company: 'Accenture Brazil',
+        period: "2021 - (now)",
+        technologies: 'Python, TensorFlow/Keras, SQL/NoSQL, AWS, Angular',
         missions: [
-            "Implementation of a theme manager (colors, logo).",
-            "Setting up a virtual folder manager that can contain Qlik Sense apps.",
-            "Development of a resource saving interface.",
-            "Creating customizable web pages: Qlik Sense Mashups (In progress).",
+            "Integrante da equipe de tecnologias emergentes. Projetos nacionais e internacionais.",
+            " ",
+            "Experiência com:",
+            "- Criação e manutenção de frontend (Angular).",
+            "- Cloud Computing (AWS): Funções Lambda, EC2, API Gateway, S3, Cognito, Aurora e etc.",
+            "- Experiência com banco de dados (SQL e NoSQL).",
+            "- Experiência com Machine Learning: Aprendizado supervisionado, não supervisionado, por reforço e redes neurais profundas (TensorFlow/Keras).",
+            "- Experiência com Python (Numpy, Pandas, MatPlotLib e etc.)"
         ],
         detailIsDisplayed: false,
     },
     {
-        title: "Freelance developer",
-        company: 'AGC Glass Europe, Maubeuge, Fr',
-        period: "2020 - 2021 (5 months)",
-        technologies: 'JAVA 8, Spring, Angular 8, Angular Materials, MySql',
+        title: "Software development intern",
+        company: 'J. Assy',
+        period: "2021 (10 months)",
+        technologies: 'C, Java, SolidWorks, Altium',
         missions: [
-            "Development of a supplier rating application by buyers.",
-            "Evolutionary and corrective maintenance of applications.",
+            "Estágio realizado durante último ano de graduação. Empresa especializada em produtos para o agronegócio, como dosadores de sementes e sensores de adubo.",
+            " ",
+            "Responsável por desenvolver e aprimorar produtos e plataformas de testes:",
+            "- Contato com programação de microcontroladores, em linguagem C e com criação de interfaces para acompanhamento de testes, em Java.",
+            "- Utilização frequente dos softwares SolidWorks para a criação de modelos 3D e Altium para o desenvolvimento de placas de circuito eletrônico."
         ],
         detailIsDisplayed: false,
-    },
-    {
-        title: "Work-study developer",
-        company: 'AGC Glass Europe, Maubeuge, Fr',
-        period: "2019 - 2020 (1 year)",
-        technologies: 'JAVA 8, Spring, Angular 8, Angular Materials, MySql',
-        missions: [
-            "Application for managing trucks entering the site",
-            "Improving an application for creating prevention plans.",
-            "Glass order formatting application, in the interest of better readability of priorities for production teams.",
-            "Creating customizable web pages: Qlik Sense Mashups (In progress).",
-        ],
-        detailIsDisplayed: false,
-    },
-    {
-        title: "Software Developer Intern",
-        company: 'Scotfy, Lyon, Fr',
-        period: "2018 (3 months)",
-        technologies: 'C#, .NET, Chiffrement AES-256',
-        missions: [
-            "Multilingual: Implementation of a language management system to allow the user to choose the language of interfaces, messages and logs.",
-            "License key: Software validation using a license key based on the Windows user name.",
-        ],
-        detailIsDisplayed: false,
-    },
+    }
 ];
 

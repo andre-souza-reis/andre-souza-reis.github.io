@@ -8,7 +8,7 @@ body{
 }
 
 .col-md-3{
-    background: #1478a7;
+    background: #173b6c;
     padding: 4%;
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
@@ -30,9 +30,9 @@ body{
 }
 
 .contact-form button{
-    background:#149ddd;
+    background:rgb(22, 59, 90);
     color: #fff;
-    font-weight: 600;
+    font-weight: 400;
     width: 25%;
 }
 
