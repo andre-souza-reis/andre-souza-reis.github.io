@@ -32,8 +32,8 @@ export class ProjectsComponent implements OnInit {
 
   ngAfterViewInit(){
     console.log("after view init");
-    this.onMouse("mautic-link", "mautic-img");
-    this.onMouse("TransferStyle-link", "TransferStyle-img");
+    this.onMouse("F1Project-img");
+    this.onMouse("TransferStyle-img");
     this.venobox = $('.venobox');
     this.venobox.venobox();
   }
@@ -43,23 +43,12 @@ export class ProjectsComponent implements OnInit {
     project.detailIsDisplayed=!project.detailIsDisplayed;
   }
 
-  onMouse(idLink: String, idImage: String) {
-    $('#' + idLink).on("mouseenter", function () {
-      console.log('on mouseenter');
-      $('#' + idImage).css("opacity", "0.3");
-      $('#' + idLink).css("opacity", "1");
-    }).on('mouseleave', function () {
-      $('#' + idImage).css("opacity", "1");
-      $('#' + idLink).css("opacity", "0");
-    }
-    );
+  onMouse(idImage: String) {
 
     $('#' + idImage).on("mouseenter", function () {
       $('#' + idImage).css("opacity", "0.3");
-      $('#' + idLink).css("opacity", "1");
     }).on('mouseleave', function () {
       $('#' + idImage).css("opacity", "1");
-      $('#' + idLink).css("opacity", "0");
     }
     );
   }

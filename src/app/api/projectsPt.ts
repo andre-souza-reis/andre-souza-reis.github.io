@@ -15,31 +15,19 @@ export const projectsPt = [
         detailIsDisplayed: false,
     },
     {
-        id:"mautic",
-        name: "Mautic Monitoring",
-        technologies: 'Android Studio, Java, Rx_Java, Retrofit, MVP, Rest',
+        id:"F1Project",
+        name: "F1 - Data Viz",
+        technologies: 'Pytho, Pandas, Streamlit, Plotly, Requests',
         images: [
             {
-                title:'Compagnes de marketing',
-                src:   "assets/images/compagnes.jpg",
-            },
-            {
-                title:'Détail de la compagne',
-                src :"assets/images/compagne-detail.jpg",
-            },
-            {
-                title:"Performance d'un émail",
-                src: "assets/images/email-detail.jpg",
-            },
-            {
-                title:"Performance d'un Asset",
-                src: "assets/images/asset-detail.jpg" 
-            },
+                title:'F1 Logo',
+                src:   "assets/images/f1-project.png",
+            }
             
         ],
-        url:'#portfolio',
-        detail:"<p>Mautic est un outil open source de marketing automatique</p> <p>L'application permet d'avoir des rapports dynamiques et détaillés, d’analyser les tendances individuels des campagnes.<br> Un tableau de bord visuellement convivial vous donne un point de vue rapide unique sur la performance de: vos campagnes numériques, assets, et formulaires. </p> <p>L'application est disponible en Français et en Anglais.</p>",
-        codeSourceUrl:'https://github.com/zinedineBenkhider/mautic_monitoring',
+        url:'https://share.streamlit.io/andre-souza-reis/f1-streamlit/main.py',
+        detail:"Adicionar detalhes",
+        codeSourceUrl:'https://github.com/andre-souza-reis/f1-streamlit',
         detailIsDisplayed: false,
     }
 ];

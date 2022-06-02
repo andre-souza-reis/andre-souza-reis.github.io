@@ -6,15 +6,9 @@
             <div class="col-lg-4 col-sm-12 " data-aos="flip-up" *ngFor="let project of projects;">
                 <div class="card shadow-lg p-3 mb-5 bg-white rounded">
                     <div class="card-header d-flex flex-column " style="height: 300px;width: 100%; ">
-                        <div id="{{project.id}}-img" class="img-wrap" style="height: 300px;width: 100%;  "
-                            [ngStyle]="{'backgroundImage':'url('+project.images[0].src+')'}">
-                        </div>
-                        <div id="{{project.id}}-link" class="links mt-auto d-flex justify-content-center">
-                            <a *ngFor="let image of project.images;let index=index" href="{{image.src}}" data-gall="project.id"
-                                class="venobox vbox-item" title="{{image.title}}"><i *ngIf="index==0" class="bx bx-zoom-in bx-md"></i></a>
-                            <a href="{{project.url}}"
-                                title="" target="_BLANK"><i class="bx bx-link bx-md"></i></a>
-                        </div>
+                        <a id="{{project.id}}-img" class="img-wrap" style="height: 300px;width: 100%;" 
+                            [ngStyle]="{'backgroundImage':'url('+project.images[0].src+')'}" href="{{project.url}}">
+                        </a>
                     </div>
                     <div class="card-body">
                         <h3 class="card-title">{{project.name}}</h3>
